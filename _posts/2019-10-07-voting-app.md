@@ -2,7 +2,7 @@
 layout: post
 title: "Voting app project"
 date: 2019-10-07 19:53:00 +09:00
-categories: react, node
+tags: react, node
 ---
 
 # Voting app project
