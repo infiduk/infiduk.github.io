@@ -12,7 +12,8 @@ Voting app project with React
 <br />선거에 참여하기 위해서는 각 선거 당 등록된 피선거자만 투표가 가능하고, 최종 결과는 관리자만 조회가 가능합니다.
 
 ## Member
-[원소희 (infiduk)](https://github.com/infiduk)
+2명
+<br />[원소희 (infiduk)](https://github.com/infiduk)
 <br />[박찬형 (ch-4ml)](https://github.com/ch-4ml)
 
 ## Function

@@ -12,7 +12,8 @@ Shopping mall project with php
 <br />현재 운영되고 있는 쇼핑몰과 같은 기능(회원가입, 로그인, 상품 조회, 상품 구매, 배송 조회 등)으로 동작합니다.
 
 ## Member
-[원소희 (infiduk)](https://github.com/infiduk)
+1명
+<br />[원소희 (infiduk)](https://github.com/infiduk)
 
 ## Function
 php로 구현

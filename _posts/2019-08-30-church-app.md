@@ -12,7 +12,8 @@ Church app project with React
 <br />교회 성도들이 웹, 모바일 환경을 구분 짓지 않고 편리하게 교회 소식을 접하도록 합니다.
 
 ## Member
-[원소희 (infiduk)](https://github.com/infiduk)
+2명
+<br />[원소희 (infiduk)](https://github.com/infiduk)
 <br />[박찬형 (ch-4ml)](https://github.com/ch-4ml)
 
 ## Function
