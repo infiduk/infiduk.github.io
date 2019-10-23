@@ -26,10 +26,13 @@ titles:
 key: page-about
 ---
 
-1레벨 개발자.. 개발을 배우는 학생입니다.
+## TEAM YK
+<img src='https://user-images.githubusercontent.com/48206157/67364153-f3331480-f5a9-11e9-95a8-c2596e0caa1f.jpg' a href='https://infiduk.github.io' />
+<img src='https://user-images.githubusercontent.com/48206157/67364152-f29a7e00-f5a9-11e9-9bdd-aab1cdf4998f.jpg' a href='https://ch-4ml.github.io' />
+<img src='https://user-images.githubusercontent.com/48206157/67364155-f3331480-f5a9-11e9-8c6f-c64f9dad2e41.jpg' a href='https://9992.github.io' />
+<br /><br />1레벨 개발자.. 개발을 배우는 학생입니다.
 <br /><b>블록체인</b> 공부 ing
-
-<br /><br />![chart](https://ghchart.rshah.org/infiduk)
+<br />![chart](https://ghchart.rshah.org/infiduk)
 
 ## 활동 및 수상
 2019.06 ~ 2019.11 디지털 트랜스포메이션을 위한 블록체인 비즈니스 청년혁신가 집중 양성 교육
@@ -37,3 +40,4 @@ key: page-about
 <br />2019.09 2019 루니버스와 함께하는 UDC 해커톤 본선
 <br />2019.07 2019 쿼럼(Quorum) 서울 해커톤 본선
 <br />2018.11 2018 이브와 ICT 멘토링 금상(과학기술정보통신부 장관상)
+<br />
