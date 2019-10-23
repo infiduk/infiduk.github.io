@@ -26,13 +26,13 @@ titles:
 key: page-about
 ---
 
-## TEAM YK
-<img src='https://user-images.githubusercontent.com/48206157/67364153-f3331480-f5a9-11e9-95a8-c2596e0caa1f.jpg' a href='https://infiduk.github.io' />
-<img src='https://user-images.githubusercontent.com/48206157/67364152-f29a7e00-f5a9-11e9-9bdd-aab1cdf4998f.jpg' a href='https://ch-4ml.github.io' />
-<img src='https://user-images.githubusercontent.com/48206157/67364155-f3331480-f5a9-11e9-8c6f-c64f9dad2e41.jpg' a href='https://9992.github.io' />
+<b>TEAM YK<b/>
+<br /><img src='https://user-images.githubusercontent.com/48206157/67365012-b23bff80-f5ab-11e9-8d93-2dd938673ec0.jpg' a href='https://infiduk.github.io' width='25%' height='25%' />
+<img src='https://user-images.githubusercontent.com/48206157/67365013-b23bff80-f5ab-11e9-9f5a-eb38db485396.jpg' a href='https://ch-4ml.github.io' width='25%' height='25%' />
+<img src='https://user-images.githubusercontent.com/48206157/67365014-b2d49600-f5ab-11e9-824b-382bd33257fd.jpg' a href='https://9992.github.io' width='25%' height='25%' />
 <br /><br />1레벨 개발자.. 개발을 배우는 학생입니다.
 <br /><b>블록체인</b> 공부 ing
-<br />![chart](https://ghchart.rshah.org/infiduk)
+<br /><br />![chart](https://ghchart.rshah.org/infiduk)
 
 ## 활동 및 수상
 2019.06 ~ 2019.11 디지털 트랜스포메이션을 위한 블록체인 비즈니스 청년혁신가 집중 양성 교육
