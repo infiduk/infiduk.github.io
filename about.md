@@ -14,7 +14,7 @@ titles:
   zh-Hant : &ZH_HANT  關於
   zh-TW   : *ZH_HANT
   zh-HK   : *ZH_HANT
-  ko      : &KO       소개
+  ko      : &KO       About INFIDUK
   ko-KR   : *KO
   fr      : &KO       À propos
   fr-BE   : *FR
@@ -26,9 +26,12 @@ titles:
 key: page-about
 ---
 
-<b>TEAM YK<b/>
-<br /><a href='https://infiduk.github.io'><img src='https://user-images.githubusercontent.com/48206157/67365012-b23bff80-f5ab-11e9-8d93-2dd938673ec0.jpg' width='25%' height='25%' /></a> <a href='https://ch-4ml.github.io'><img src='https://user-images.githubusercontent.com/48206157/67365013-b23bff80-f5ab-11e9-9f5a-eb38db485396.jpg' width='25%' height='25%' /></a> <a href='https://9992.github.io'><img src='https://user-images.githubusercontent.com/48206157/67365014-b2d49600-f5ab-11e9-824b-382bd33257fd.jpg' width='25%' height='25%' /></a>
-<br /><br />1레벨 개발자에서 보스 개발자가 되고싶은.. 대학생입니다.
+<b>Sohee Won of TEAM YK<b/>
+|원소희|박찬형|최한솔|
+|:---:|:---:|:---:|
+|<a href="https://infiduk.github.io"><img src='https://user-images.githubusercontent.com/48206157/67365012-b23bff80-f5ab-11e9-8d93-2dd938673ec0.jpg' width='200' /></a>| <a href="https://ch-4ml.github.io"> <img src='https://user-images.githubusercontent.com/48206157/67365013-b23bff80-f5ab-11e9-9f5a-eb38db485396.jpg' width='200' /> | <a href="https://9992.github.io"><img src='https://user-images.githubusercontent.com/48206157/67365014-b2d49600-f5ab-11e9-824b-382bd33257fd.jpg' width='200' /></a>|
+| Back-End & Front-End | Back-End | Design & Back-End |
+<br />1레벨 개발자에서 보스 개발자가 되고싶은.. 대학생입니다.
 <br /><b>블록체인</b> 공부 ing
 <br /><br />![chart](https://ghchart.rshah.org/infiduk)
 
