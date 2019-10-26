@@ -1,6 +1,6 @@
 ---
 title: "Church app"
-date: 2019-08-30 20:33:00 +09:00
+date: 2019-10-21 17:44:00 +09:00
 tags: react project
 ---
 

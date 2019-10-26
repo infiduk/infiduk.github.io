@@ -1,6 +1,6 @@
 ---
 title: "Card Game app"
-date: 2016-12-19 10:12:00 +09:00
+date: 2019-10-26 19:37:00 +09:00
 tags: winapi project
 ---
 
