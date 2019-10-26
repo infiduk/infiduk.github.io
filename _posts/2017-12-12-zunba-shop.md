@@ -6,7 +6,7 @@ tags: php mysql project
 
 Shopping mall project with php
 
-## 교내 쇼핑몰 프로젝트 - Zunba Shop
+## 교내 프로젝트 - Zunba Shop
 
 ## 팀원
 1명

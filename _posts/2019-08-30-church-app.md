@@ -4,7 +4,7 @@ date: 2019-08-30 20:33:00 +09:00
 tags: react project
 ---
 
-Church app project with React
+Church app with React
 <br />기간: 2019.09 ~ 2019.10
 
 ## Introduction

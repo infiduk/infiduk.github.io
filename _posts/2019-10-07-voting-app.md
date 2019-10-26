@@ -4,7 +4,7 @@ date: 2019-10-07 19:53:00 +09:00
 tags: react nodejs mysql project
 ---
 
-Voting app project with React
+Voting app with React
 <br />기간: 2019.09 ~ 2019.10
 
 ## Introduction
