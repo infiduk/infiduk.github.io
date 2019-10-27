@@ -18,7 +18,7 @@ Voting App Project with React
 
 ## 프로젝트 개요
 - 교수님께서 필요에 의해 의탁하신 프로젝트입니다.
-- 높은 뜻 정의교회 선거 앱입니다.
+- [높은 뜻 정의교회](http://www.jeongeui.com/) 선거 앱입니다.
 
 ## 개발 언어 및 구성 환경
 - Language: javascript
