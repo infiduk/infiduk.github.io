@@ -4,7 +4,7 @@ date: 2019-10-21 17:59:00 +09:00
 tags: android java xml mysql project
 ---
 
-Supporters Recruitment Monitoring App with android
+Supporters Recruitment Monitoring Project with Android
 
 ## 2019 캡스톤 디자인 프로젝트 - Good Monitoring App
 
@@ -18,6 +18,7 @@ Supporters Recruitment Monitoring App with android
 ## 프로젝트 개요
 - 2019년 1학기 캡스톤 디자인 프로젝트입니다.
 - [(주)굿 모니터링](http://goodmonitoring.com) 회사와 연계해 산업체 연계 과제로 진행하였습니다.
+- 모니터링 공고 등록 및 조회 앱입니다.
 
 ### 현황 및 문제점
 1. 현재 다양한 분야(일반, 주부, 학생, 시니어 등)의 서포터즈(모니터링) 공고가 있음에도 불구하고, 그 공고들을 모집 대상들에게 알려주는 **안드로이드 앱**은 매우 **부족**합니다.
@@ -30,11 +31,14 @@ Supporters Recruitment Monitoring App with android
 3. 서포터즈 신청과 함께 **굿 모니터링 메일링 신청**도 **함께**할 수 있도록 유도해 굿 모니터링 메일링 회원을 증가시키고자 합니다.
 4. 추후 유지보수를 위해 **확장성 있는 개발**을 목표로 합니다.
 
+## 기획 및 설계 문서
+- [good-monitoring.pdf](https://github.com/infiduk/good-monitoring-app/files/3775797/good-monitoring.pdf)
+
 ## 개발 언어 및 구성 환경
 - Language: Java, XML
-- IDE: Android Studio
 - DB: MySQL
-- OS: Window
+- OS: Window, Android
+- IDE: Android Studio
 
 ## 구현 내역
 
@@ -42,8 +46,8 @@ Supporters Recruitment Monitoring App with android
 1. 회원 구분을 관리자, 기관, 사용자로 나누어 구현하였습니다.
   - 기관은 모니터링 정보에 대한 공고 목록 보기, 공고 등록, 수정 및 삭제가 가능합니다.
   - 사용자는 모니터링 모집 공고를 보고 원하는 모집 공고에 지원할 수 있습니다.
-2. 초기 화면 진입시 최신 등록된 공고, 인기 있는 공고 순으로 모집 공고를 열람할 수 있습니다.
-3. 사이드 바를 이용해 사용자가 메뉴를 이동하는데 어려움이 없도록 구현하였습니다.
+2. 초기 화면 진입 시 최신 등록된 공고, 인기 있는 공고 순으로 모집 공고를 열람할 수 있습니다.
+3. 사이드 바를 이용해 사용자가 메뉴를 이동하는 데 어려움이 없도록 구현하였습니다.
 
 ### 화면
 - 메인 화면
