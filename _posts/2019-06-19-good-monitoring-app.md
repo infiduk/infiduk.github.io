@@ -66,4 +66,4 @@ Supporters Recruitment Monitoring App with android
 - Back-end
 
 ## Github
-- [Good Monitorig app Github Link](https://github.com/infiduk/good-monitoring-app)
+- [Good Monitorig App Github Link](https://github.com/infiduk/good-monitoring-app)
