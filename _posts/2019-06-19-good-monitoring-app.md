@@ -50,19 +50,29 @@ Supporters Recruitment Monitoring Project with Android
 3. 사이드 바를 이용해 사용자가 메뉴를 이동하는 데 어려움이 없도록 구현하였습니다.
 
 ### 화면
+- 로그인 화면
+<br />
+![image_01](https://user-images.githubusercontent.com/48206157/67644531-a2cf0480-f965-11e9-9cfb-c015d87e9db4.jpg)
+<br />
+<br />
 - 메인 화면
 <br />
-![image_01](https://user-images.githubusercontent.com/48206157/67191186-2f406b00-f42c-11e9-8cdd-a5d121d5c826.png)
+![image_02](https://user-images.githubusercontent.com/48206157/67644545-c7c37780-f965-11e9-8f1e-d8aa10887246.jpg)
 <br />
 <br />
 - 공고 등록 화면
 <br />
-![image_02](https://user-images.githubusercontent.com/48206157/67191244-42533b00-f42c-11e9-9a87-6a4985149d53.png)
+![image_03](https://user-images.githubusercontent.com/48206157/67644565-ddd13800-f965-11e9-9533-0d33683a2ef1.jpg)
 <br />
 <br />
 - 사이드 바 화면
 <br />
-![image_03](https://user-images.githubusercontent.com/48206157/67191289-572fce80-f42c-11e9-9246-47cb9b590e0c.png)
+![image_04](https://user-images.githubusercontent.com/48206157/67644576-ede91780-f965-11e9-9aca-25c95a014c31.jpg)
+<br />
+<br />
+- 공고 상세 화면
+<br />
+![image_05](https://user-images.githubusercontent.com/48206157/67644597-153fe480-f966-11e9-85bd-ea62f259ec92.jpg)
 
 ## 프로젝트 내 역할
 - 프로젝트 기획 및 총괄
