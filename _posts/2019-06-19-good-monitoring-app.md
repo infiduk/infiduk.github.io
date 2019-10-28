@@ -2,6 +2,7 @@
 title: "Good Monitoring App"
 date: 2019-10-21 17:59:00 +09:00
 tags: android java xml mysql project
+comments: true
 ---
 
 Supporters Recruitment Monitoring Project with Android
@@ -81,3 +82,11 @@ Supporters Recruitment Monitoring Project with Android
 
 ## Github
 - [Good Monitorig App Github Link](https://github.com/infiduk/good-monitoring-app)
+
+<br />
+<br />
+{% if page.comments %}
+<div id="post-disqus" class="container">
+{% include disqus.html %}
+</div>
+{% endif %}

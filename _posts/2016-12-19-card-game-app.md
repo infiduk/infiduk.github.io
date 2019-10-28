@@ -2,6 +2,7 @@
 title: "Card Game App"
 date: 2019-10-26 19:37:00 +09:00
 tags: c winapi project
+comments: true
 ---
 
 Card Matching Game Project with WinAPI
@@ -55,3 +56,10 @@ Card Matching Game Project with WinAPI
 
 <!-- ## Github
 - [Card Game App Github Link](https://github.com/infiduk) -->
+<br />
+<br />
+{% if page.comments %}
+<div id="post-disqus" class="container">
+{% include disqus.html %}
+</div>
+{% endif %}

@@ -2,6 +2,7 @@
 title: "Church App"
 date: 2019-10-21 17:44:00 +09:00
 tags: react javascript project
+comments: true
 ---
 
 Church App Project with React
@@ -51,3 +52,11 @@ Church App Project with React
 
 ## Github
 - [Church App Github Link](https://github.com/infiduk/church-app)
+
+<br />
+<br />
+{% if page.comments %}
+<div id="post-disqus" class="container">
+{% include disqus.html %}
+</div>
+{% endif %}
