@@ -1,5 +1,5 @@
 ---
-title: "Zunba Shop"
+title: "[Project] Zunba Shop"
 date: 2019-10-21 15:56:00 +09:00
 tags: php javascript mysql project
 comments: true
@@ -56,11 +56,3 @@ Shopping Mall Project with PHP
 
 ## Github
 - [Zunba Shop Github Link](https://github.com/infiduk/zunba-shop)
-
-<br />
-<br />
-{% if page.comments %}
-<div id="post-disqus" class="container">
-{% include disqus.html %}
-</div>
-{% endif %}

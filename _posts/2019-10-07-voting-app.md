@@ -1,5 +1,5 @@
 ---
-title: "Voting App"
+title: "[Project] Voting App"
 date: 2019-10-20 16:28:00 +09:00
 tags: react javascript node mysql project
 comments: true
@@ -57,11 +57,3 @@ Voting App Project with React
 
 ## Github
 - [Voting App Github Link](https://github.com/infiduk/voting-app)
-
-<br />
-<br />
-{% if page.comments %}
-<div id="post-disqus" class="container">
-{% include disqus.html %}
-</div>
-{% endif %}

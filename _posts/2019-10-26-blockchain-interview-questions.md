@@ -1,11 +1,14 @@
 ---
-title: "Blockchain Interview Questions"
+title: "[Study] 블록체인 면접 공부"
 date: 2019-10-26 19:29:00 +09:00
-tags: study
+tags: study blockchain
 comments: true
 ---
 
-## 면접 준비를 위한 공부!
+Blockchain Interview Questions
+
+## 블록체인 면접 대비 공부
+
 [미디움 블록체인 개발자 면접 오픈북]
 (https://hamait.tistory.com/1054)
 <br />
@@ -25,11 +28,3 @@ comments: true
 <br />
 <br />
 [LINE 개발자분 인터뷰](https://blog.naver.com/PostView.nhn?blogId=mage7th&logNo=221575023525)
-
-<br />
-<br />
-{% if page.comments %}
-<div id="post-disqus" class="container">
-{% include disqus.html %}
-</div>
-{% endif %}
