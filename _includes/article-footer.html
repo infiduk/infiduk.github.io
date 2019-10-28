@@ -53,7 +53,5 @@
     <div class="article__license">{%- include article/footer/license.html license=_license_data -%}</div>
   {%- endif -%}
 
-  {% if page.comments %}
-    <div id="post-disqus" class="container">{% include comments.html %}</div>
-  {% endif %}
+  <div id="post-disqus" class="container">{% include comments.html %}</div>
 </footer>
