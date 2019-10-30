@@ -30,7 +30,7 @@ key: page-about
 
 |원소희|박찬형|최한솔|
 |:---:|:---:|:---:|
-|<a href="https://infiduk.github.io"><img src='https://user-images.githubusercontent.com/48206157/67365012-b23bff80-f5ab-11e9-8d93-2dd938673ec0.jpg' width='200' /></a>|<a href="https://ch-4ml.github.io"> <img src='https://user-images.githubusercontent.com/48206157/67365013-b23bff80-f5ab-11e9-9f5a-eb38db485396.jpg' width='200' />|<a href="https://9992.github.io"><img src='https://user-images.githubusercontent.com/48206157/67365014-b2d49600-f5ab-11e9-824b-382bd33257fd.jpg' width='200' /></a>|
+|<a href='https://infiduk.github.io'><img src='https://user-images.githubusercontent.com/48206157/67819387-4bad6900-faf8-11e9-8694-c744aaaa817f.jpg' width='200' /></a>|<a href='https://ch-4ml.github.io'> <img src='https://user-images.githubusercontent.com/48206157/67819444-7992ad80-faf8-11e9-863a-a6b3fd38bfd0.jpg' width='200' />|<a href='https://9992.github.io'><img src='https://user-images.githubusercontent.com/48206157/67819461-87e0c980-faf8-11e9-8df8-5e6e6c068ec9.jpg' width='200' /></a>|
 | Back-End & Front-End | Back-End | Design & Back-End |
 
 <br />1레벨 개발자에서 보스 개발자가 되고싶은.. 대학생입니다.
