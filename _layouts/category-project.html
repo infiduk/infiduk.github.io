@@ -1,28 +1,39 @@
 ---
-layout: base
+layout: page
+titles:
+  # @start locale config
+  en      : &EN       Project
+  en-GB   : *EN
+  en-US   : *EN
+  en-CA   : *EN
+  en-AU   : *EN
+  zh-Hans : &ZH_HANS  
+  zh      : *ZH_HANS
+  zh-CN   : *ZH_HANS
+  zh-SG   : *ZH_HANS
+  zh-Hant : &ZH_HANT  
+  zh-TW   : *ZH_HANT
+  zh-HK   : *ZH_HANT
+  ko      : &KO       프로젝트
+  ko-KR   : *KO
+  fr      : &FR       
+  fr-BE   : *FR
+  fr-CA   : *FR
+  fr-CH   : *FR
+  fr-FR   : *FR
+  fr-LU   : *FR
+  # @end locale config
 ---
-{%- assign _tag_max_size = 1 -%}
-{%- assign _tag_min_size = 1 -%}
-{%- assign _tag_cur_size = 1 -%}
-{%- assign _tags = site.tags | sort -%}
-{%- for _tag in _tags -%}
-  {%- assign _tag_cur_size = _tag[1].size -%}
-  {%- if _tag_cur_size > _tag_max_size -%}
-    {%- assign _tag_max_size =  _tag_cur_size -%}
-  {%- endif -%}
-  {%- if _tag_cur_size < _tag_min_size -%}
-    {%- assign _tag_min_size = _tag_cur_size -%}
-  {%- endif -%}
-{%- endfor -%}
-{%- assign _tag_gap_size =  _tag_max_size | minus: _tag_min_size | plus: 1 | divided_by: 4 -%}
-{%- if _tag_gap_size < 1 -%}
-  {%- assign _tag_gap_size = 1 -%}
-{%- endif -%}
-<div class="site-tags js-tags">
-  <ul class="menu">
-      <li><button type="button" class="button button--pill tag-button" data-encode="project">
-          <span>project</span>
-        </button>
-      </li>
-  </ul>
+
+<div class="layout--archive js-all">
+  {%- include category-project.html -%}
+  <div class="js-result layout--archive__result d-none">
+    {%- include article-list.html articles=site.posts type='brief' show_info=true reverse=true group_by='year' -%}
+  </div>
 </div>
+
+<script>
+  {%- include scripts/archieve.js -%}
+</script>
+
+{{ content }}
