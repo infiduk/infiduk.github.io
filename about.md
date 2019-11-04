@@ -34,9 +34,20 @@ key: page-about
 | Back-End & Front-End | Back-End | Design & Back-End |
 
 ## 1일 1커밋 도전 중!
-1레벨 개발자에서 보스 개발자가 되고싶은.. 대학생입니다.
+1레벨 개발자에서 보스 개발자가 되고싶은! 대학생입니다.
 <br /><b>블록체인</b> 공부 ing
 <br /><br />![chart](https://ghchart.rshah.org/infiduk)
+
+## 기술
+- Blockchain: Hyperledger-Fabric, Ethereum
+- Language: Javascript, PHP, Java, Swift, Solidity, go, python, C, C++, C#
+- Library: React.js, RN, Bootstrap
+- Server: Node.js, Apache Tomcat, Apache Server
+- DB: MySQL, MongoDB, MariaDB, MS-SQL
+- Framework: Truffle(Ganache), Codeigniter, Flask
+
+## 관심 분야
+- dApp 개발
 
 ## 활동 및 수상
 2016.03 ~ 인덕대학교 컴퓨터소프트웨어학과 재학
@@ -45,4 +56,3 @@ key: page-about
 <br />2019.09 2019 루니버스와 함께하는 UDC 해커톤 본선
 <br />2019.07 2019 쿼럼(Quorum) 서울 해커톤 본선
 <br />2018.11 2018 이브와 ICT 멘토링 금상 (과학기술정보통신부 장관상)
-<br />
