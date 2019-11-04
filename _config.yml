@@ -66,6 +66,8 @@ paths:
   home    : # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
+  category-project: "/category-project.html"
+  category-study: "/category-study.html"
 
 
 ## => Post
