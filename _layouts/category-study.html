@@ -1,0 +1,25 @@
+{%- assign _tag_max_size = 1 -%}
+{%- assign _tag_min_size = 1 -%}
+{%- assign _tag_cur_size = 1 -%}
+{%- assign _tags = site.tags | sort -%}
+{%- for _tag in _tags -%}
+  {%- assign _tag_cur_size = _tag[1].size -%}
+  {%- if _tag_cur_size > _tag_max_size -%}
+    {%- assign _tag_max_size =  _tag_cur_size -%}
+  {%- endif -%}
+  {%- if _tag_cur_size < _tag_min_size -%}
+    {%- assign _tag_min_size = _tag_cur_size -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign _tag_gap_size =  _tag_max_size | minus: _tag_min_size | plus: 1 | divided_by: 4 -%}
+{%- if _tag_gap_size < 1 -%}
+  {%- assign _tag_gap_size = 1 -%}
+{%- endif -%}
+<div class="site-tags js-tags">
+  <ul class="menu">
+      <li><button type="button" class="button button--pill tag-button tag-button-{{ _c_index }}" data-encode="study">
+          <span>study</span><div class="tag-button__count">{{ _tag[1].size }}</div>
+        </button>
+      </li>
+  </ul>
+</div>
