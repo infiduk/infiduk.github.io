@@ -41,8 +41,8 @@ key: page-about
 ## 기술
 - Blockchain: Hyperledger-Fabric, Ethereum
 - Language: Javascript, PHP, Java, Swift, Solidity, go, python, C, C++, C#
-- Library: React.js, RN, Bootstrap
-- Server: Node.js, Apache Tomcat, Apache Server
+- Library: React.js, RN
+- Server: Node.js
 - DB: MySQL, MongoDB, MariaDB, MS-SQL
 - Framework: Truffle(Ganache), Codeigniter, Flask
 
