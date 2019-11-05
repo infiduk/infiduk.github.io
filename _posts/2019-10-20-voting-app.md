@@ -1,6 +1,6 @@
 ---
 title: "[Project] Voting App"
-date: 2019-10-20 16:28:00 +09:00
+date: 2019-10-07 16:28:00 +09:00
 tags: react javascript node mysql project
 comments: true
 ---

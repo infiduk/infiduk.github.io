@@ -1,6 +1,6 @@
 ---
 title: "[Project] Good Monitoring App"
-date: 2019-10-21 17:59:00 +09:00
+date: 2019-06-19 17:59:00 +09:00
 tags: android java xml mysql project
 comments: true
 ---

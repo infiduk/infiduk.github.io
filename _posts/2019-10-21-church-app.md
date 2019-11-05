@@ -1,6 +1,6 @@
 ---
 title: "[Project] Church App"
-date: 2019-10-21 17:44:00 +09:00
+date: 2019-08-30 17:44:00 +09:00
 tags: react javascript project
 comments: true
 ---
