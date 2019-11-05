@@ -135,6 +135,5 @@ Adding Google Analytics To Jekyll
 ## 완료!
 - 모든 설정이 완료되었다면 배포를 해주시고, 본인 블로그에 접속한 후 `Google Analytics`를 확인해보면 실시간으로 활성 사용자가 변하는 것을 보실 수 있습니다!
 <br />
-<br />
 ![image_14](https://user-images.githubusercontent.com/48206157/68187567-57ae9480-ffea-11e9-997f-2cdbe45e5838.JPG)
 - `실시간 보고서`를 확인하면 더 자세한 정보를 볼 수 있습니다.
