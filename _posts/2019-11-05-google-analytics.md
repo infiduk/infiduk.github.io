@@ -93,7 +93,6 @@ Adding Google Analytics To Jekyll
   <br />
   ![image_12](https://user-images.githubusercontent.com/48206157/68187304-b1fb2580-ffe9-11e9-8829-fc983ef1a796.png)
   <br />
-  <br />
   - `header.html`이나 `footer.html`안에 해당 `gtag.js`를 붙일 수 있도록 설정해 둔 테마도 있습니다!
 - 파일이 준비 되었다면, 복사해둔 `gtag.js`를 붙여넣기 해주세요.
 <br />
@@ -135,5 +134,7 @@ Adding Google Analytics To Jekyll
 
 ## 완료!
 - 모든 설정이 완료되었다면 배포를 해주시고, 본인 블로그에 접속한 후 `Google Analytics`를 확인해보면 실시간으로 활성 사용자가 변하는 것을 보실 수 있습니다!
+<br />
+<br />
 ![image_14](https://user-images.githubusercontent.com/48206157/68187567-57ae9480-ffea-11e9-997f-2cdbe45e5838.JPG)
 - `실시간 보고서`를 확인하면 더 자세한 정보를 볼 수 있습니다.
