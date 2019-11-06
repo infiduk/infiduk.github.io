@@ -1,5 +1,5 @@
 ---
-title: "[Study] 지킬(Jekyll)에 Google Analytics 추가하기"
+title: "[Jekyll] 지킬(Jekyll)에 Google Analytics 추가하기"
 date: 2019-11-05 15:30:00 +09:00
 tags: study jekyll
 comments: true
