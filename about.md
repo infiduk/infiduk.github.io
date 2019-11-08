@@ -40,11 +40,11 @@ key: page-about
 
 ## 기술
 - Blockchain: Hyperledger-Fabric, Ethereum
-- Language: Javascript, PHP, Java, Swift, Solidity, go, C, C++
-- Library: React.js, RN
-- Server: Node.js, APM
-- DB: MySQL, MongoDB, MS-SQL
-- Framework: Truffle(Ganache), Codeigniter, Flask
+- Language: **Javascript**, **PHP**, Java, Swift, Solidity, go, C, C++
+- Library: **React.js**, **React Native**
+- Server: **Node.js**, APM
+- DB: **MySQL**, MongoDB, MS-SQL
+- Framework: Truffle(Ganache), Codeigniter
 
 ## 관심 분야
 - dApp 개발

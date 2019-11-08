@@ -31,7 +31,8 @@ Blockchain Interview Questions
   - 잘못된 정보를 전달하는 배신자 노드가 있더라도 동작하는 것이다.
   - 시스템에 장애가 생기더라도 견디는 것.
 
-### Consensus 3. POW와 POS의 가장 큰 차이점 (Safety(Finality) & Liveness 관점)
+### Consensus 3. POW와 POS의 가장 큰 차이점
+- Safety(Finality) & Liveness 관점
 - POW
   - 문제를 더 빨리 풀 경우 그 체인을 유효한 체인으로 판단한다.
   - 즉, 지금 체인보다 더 긴 체인을 만들 수 있을 만한 파워를 가지면 기존의 합의된 블록을 언제든지 바꿀 수 있다 -> Finality가 보장되지 않는다. (Liveness를 위해 Safety를 포기)
