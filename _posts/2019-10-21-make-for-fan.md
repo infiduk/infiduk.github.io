@@ -1,13 +1,13 @@
 ---
 title: "[Project] Make for Fan"
 date: 2019-10-21 15:56:00 +09:00
-tags: hyperledger-fabric react-native javascript go mongo project
+tags: hyperledger-fabric react javascript go mongo project
 comments: true
 ---
 
 Fan Vote App Project based on Hyperledger Fabric
 
-## 2019 KBCI 프로젝트 - FFF (of the Fan, by the Fan, for the Fan)
+## 2019 KBCI, 공개SW Hackathon 프로젝트 - Make for Fan (of the Fan, by the Fan, for the Fan)
 
 ## 프로젝트 팀원
 - 3명
@@ -19,7 +19,7 @@ Fan Vote App Project based on Hyperledger Fabric
 - 2019.10 ~
 
 ## 프로젝트 개요
-- 2019 KBCI 프로젝트입니다.
+- 2019 KBCI, 공개SW Hackathon 프로젝트입니다.
 - 팬을 위한 투표 앱입니다.
 
 ### 현황 및 문제점
@@ -33,7 +33,7 @@ Fan Vote App Project based on Hyperledger Fabric
 4. 일상에서 충분히 접할 수 있는 선택지를 문제로 제공해 사용자들의 자연스러운 참여를 유도하고, 그에 따른 데이터를 모으고자 합니다.
 
 ## 기획 및 설계 문서
-- [문제야 문제 Notion Link](https://www.notion.so/ilovekakao/QnQ-5005e961e4bf4a7ca1021eb32a439e8a)
+- [Make for Fan Notion Link](https://www.notion.so/ilovekakao/QnQ-5005e961e4bf4a7ca1021eb32a439e8a)
 <br />
 ![image_01](https://user-images.githubusercontent.com/48206157/68637534-431a5100-0542-11ea-949c-8bb64ce43cb5.png)
 
@@ -72,4 +72,4 @@ Fan Vote App Project based on Hyperledger Fabric
 - Front-end
 
 ## Github
-- [QnQ Github Link](https://github.com/infiduk/fff-front)
+- [Make for Fan Github Link](https://github.com/infiduk/fff-front)
