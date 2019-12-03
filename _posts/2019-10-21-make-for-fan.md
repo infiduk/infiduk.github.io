@@ -72,4 +72,4 @@ Fan Vote App Project based on Hyperledger Fabric
 - Front-end
 
 ## Github
-- [Make for Fan Github Link](https://github.com/infiduk/fff-front)
+- [Make for Fan Github Link](https://github.com/infiduk/fff)
