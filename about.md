@@ -47,7 +47,7 @@ key: page-about
 - Framework: Truffle(Ganache), Codeigniter
 
 ## 관심 분야
-- dApp 개발
+- dApp 개발 / Blockchain Network 
 
 ## 활동 및 수상
 2016.03 ~ 2020.02 인덕대학교 컴퓨터소프트웨어학과 졸업예정
