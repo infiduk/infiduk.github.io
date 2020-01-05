@@ -21,7 +21,7 @@ Card Matching Game Project with WinAPI
 - 카드 짝 맞추기 게임입니다.
 
 ## 개발 언어 및 구성 환경
-- Language: C
+- Language: C/C++
 - OS: Window
 - IDE: Visual Studio
 
