@@ -33,7 +33,7 @@ key: page-about
 
 ## 기술
 - Blockchain: Hyperledger-Fabric, Ethereum
-- Language: **Javascript**, **Java**, **C++**, PHP, Java, Swift, Solidity, go, C
+- Language: **Javascript**, **Java**, **C++**, PHP, Swift, Solidity, go, C
 - Library: **React.js**, **React Native**
 - Server: **Node.js**, APM
 - DB: **MySQL**, MongoDB, MS-SQL, MariaDB
