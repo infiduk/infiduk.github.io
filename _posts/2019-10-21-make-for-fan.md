@@ -16,7 +16,7 @@ Fan Vote App Project based on Hyperledger Fabric
 - [최한솔](https://github.com/9992)
 
 ## 프로젝트 기간
-- 2019.10 ~
+- 2019.10 ~ 2019.11
 
 ## 프로젝트 개요
 - 2019 KBCI, 공개SW Hackathon 프로젝트입니다.

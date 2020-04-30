@@ -15,7 +15,7 @@ Voting App Project with React
 - [박찬형](https://github.com/ch-4ml)
 
 ## 프로젝트 기간
-- 2019.09 ~
+- 2019.09 ~ 2020.02
 
 ## 프로젝트 개요
 - 교수님께서 필요에 의해 의탁하신 프로젝트입니다.
