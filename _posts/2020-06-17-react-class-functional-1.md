@@ -59,6 +59,7 @@ npx create-react-app react-example
 ### 사용하지 않는 기본 소스 정리
 - `App.css` 파일과 `index.css` 파일 내용 삭제
 - `App.js` 파일 정리
+
 ``` javascript
 // App.js
 import React from 'react';
@@ -125,6 +126,7 @@ class ClassComp extends React.Component {
 ![image_01](https://user-images.githubusercontent.com/48206157/84844709-ed80c680-b085-11ea-9c27-fbe0db523d04.png)
 
 - `App.js` 파일 소스
+
 ``` javascript
 // App.js
 import React from 'react';
@@ -160,7 +162,6 @@ function FuncComp() {
 
 export default App;
 ```
-
 
 - `App.css` 파일 소스
 ``` css
