@@ -78,6 +78,7 @@ export default App;
 
 ### 컴포넌트 추가
 - `App.js` 에 있는 `Hello World` 부분 밑에 (만들어 줄) 클래스형 컴포넌트와 함수형 컴포넌트 추가
+
 ``` javascript
 ...
 <ClassComp />
