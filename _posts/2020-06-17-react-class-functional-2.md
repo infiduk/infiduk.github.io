@@ -10,7 +10,7 @@ React Class Component, Functional Component
 ## 리액트.. 클래스형 컴포넌트와 함수형 컴포넌트 알아보기
 - 인프런 생활코딩 강의를 참고했습니다! ([인프런 강의 링크](https://www.inflearn.com/course/react-class-function-생활코딩))
 
-## [1편 보기...](./2020-06-17-react-class-functional-1.md)
+## [1편 보기...](https://infiduk.github.io/2020/06/17/react-class-functional-1.html)
 
 ## state, props
 - 컴포넌트를 사용하는 쪽은 컴포넌트가 제공하는 `props` 를 통해서 컴포넌트를 이용

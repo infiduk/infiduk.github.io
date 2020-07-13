@@ -173,4 +173,4 @@ export default App;
 }
 ```
 
-## [2편에 계속...](./2020-06-17-react-class-functional-2.md)
+## [2편에 계속...](https://infiduk.github.io/2020/06/18/react-class-functional-2.html)
