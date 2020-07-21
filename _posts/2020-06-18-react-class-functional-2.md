@@ -311,4 +311,4 @@ function FuncComp(props) {
 export default App;
 ```
 
-## 3편에 계속...
+## [3편에 계속...](https://infiduk.github.io/2020/07/21/react-class-functional-3.html)
