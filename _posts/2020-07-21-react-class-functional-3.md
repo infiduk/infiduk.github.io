@@ -13,7 +13,7 @@ React Class Component, Functional Component
 ## [1편 보기...](https://infiduk.github.io/2020/06/17/react-class-functional-1.html)
 ## [2편 보기...](https://infiduk.github.io/2020/06/18/react-class-functional-2.html)
 
-## Functional 컴포넌트가 class 컴포넌트와 대등할 수 있게된 계기
+## Functional 컴포넌트가 class 컴포넌트와 대등할 수 있게 된 계기
 - `state` 를 사용할 수 있게 됨 (`useState` 이용)
 - `life cycle` 을 사용할 수 있게 됨
 
