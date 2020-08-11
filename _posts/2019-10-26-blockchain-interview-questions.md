@@ -110,7 +110,7 @@ Blockchain Interview Questions
   - 내장 CA 구성요소로, X.509 디지털 인증서 형태의 개인 Root CA 공급자
   - Root CA를 위한 맞춤 CA
 
-### Hyperledger Fabric 14. 하애퍼레저 패브릭 리더피어와 앵커피어
+### Hyperledger Fabric 14. 하이퍼레저 패브릭 리더피어와 앵커피어
 - Leader Peer
   - Ordering Peer로부터 조직의 다른 Committing Peer로 트랜잭션을 책임지고 배포한다.
   - 자동 선출(조직 당 하나의 피어만 선출)과 수동 선출(0개 또는 원하는 수의 피어를 선출)로 리더를 선출하고, 자동 선출에서 리더의 네트워크가 끊어졌을 경우 남은 피어들 중 리더를 재선출한다.
