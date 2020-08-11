@@ -33,17 +33,14 @@ key: page-about
 
 ## 기술
 - Blockchain: Hyperledger-Fabric, Ethereum
-- Language: **Javascript**, **Java**, **C++**, PHP, Swift, Solidity, go, C
-- Library: **React.js**, **React Native**
-- Server: **Node.js**, APM
-- DB: **MySQL**, MongoDB, MS-SQL, MariaDB
-- Framework: Truffle(Ganache), Codeigniter
+- Language: Javascript, Java, C/C++
+- DB: RDBMS, NoSQL
 
 ## 관심 분야
 - dApp 개발 / Blockchain Network 
 
 ## 활동 및 수상
-Glosfer ~
+Glosfer
 <br />2019.06 ~ 2019.11 디지털 트랜스포메이션을 위한 블록체인 비즈니스 청년혁신가 집중 양성 교육 수료 (프로젝트 최우수상, 출석우수상)
 <br />2019.01 ~ 2019.05 이더리움 연구회 5기 - dApp 분과
 <br />2018.04 ~ 2018.11 2018 이브와 ICT 멘토링 진행 (금상 - 과학기술정보통신부 장관상)
