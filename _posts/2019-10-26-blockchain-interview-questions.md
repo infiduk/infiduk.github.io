@@ -74,6 +74,12 @@ Blockchain Interview Questions
 ## 미디움 블록체인 개발자 면접 오픈북
 - 출처: [[미디움] 블록체인 R/D 부분 면접 오픈북 (HAMA 블로그)](https://hamait.tistory.com/1054)
 
+### Blockchain 2. 토큰과 코인의 차이
+- 토큰
+  - 독립된 블록체인 네트워크(메인넷)를 가지고 있지 않고, 기존 플랫폼에서 파생되어 만들어진 암호화폐 (ex. 이더리움 플랫폼에서 만들어진 토큰)
+- 코인
+  - 독립된 블록체인 네트워크를 가지고 있는 암호화폐 (ex. BTC, ETH ...)
+
 ### Hyperledger Fabric 1. 하이퍼레저 패브릭 트랜잭션 흐름
 ![image_01](https://user-images.githubusercontent.com/48206157/68653439-16c8f980-056f-11ea-92b7-9a7178a73423.png)
 <br />
