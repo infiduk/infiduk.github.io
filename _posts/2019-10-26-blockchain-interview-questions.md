@@ -80,6 +80,11 @@ Blockchain Interview Questions
 - 코인
   - 독립된 블록체인 네트워크를 가지고 있는 암호화폐 (ex. BTC, ETH ...)
 
+### Blockchain 4. 이더리움에서 ERC20 표준을 만든 이유
+- ERC20이란 이더리움 블록체인 네트워크에서 정한 표준 토큰 스펙으로, 토큰끼리의 호환성을 위해 만듦
+- ERC20 기반 토큰들은 동일한 이더리움 지갑으로 전송이 가능함
+- ERC20 표준 호환 토큰들은 나중에 통합되어 한번에 이더로 모두 바꾸어 현금화가 가능함
+
 ### Hyperledger Fabric 1. 하이퍼레저 패브릭 트랜잭션 흐름
 ![image_01](https://user-images.githubusercontent.com/48206157/68653439-16c8f980-056f-11ea-92b7-9a7178a73423.png)
 <br />
@@ -158,11 +163,11 @@ Blockchain Interview Questions
 <!-- ### Consensus 5. DPOS 알고리즘
 -  -->
 
-## 참고 사이트
-- [goQuality-dev-contents](https://github.com/Integerous/goQuality-dev-contents)
-- [Hyperledger Fabric Interview Questions (영문)](https://vitalflux.com/hyperledger-fabric-distributed-ledger-interview-questions-notes/)
+## 참고 사이트erview Questions (영문)](https://vitalflux.com/hyperledger-fabric-distributed-ledger-interview-questions-notes/)
 - [2018년 12월 hyperledger fabric interview questions (영문)](https://www.biganalytics.me/2018/12/hyperledger-fabric-real-interview.html)
-- [Top blockchain interview questions (영문)](https://intellipaat.com/blog/interview-question/blockchain-interview-questions/)
+- [Top blockchain interview questions (영문)](https://intellipaat.com/blog/interview-question/blockchain-interview-ques
+- [goQuality-dev-contents](https://github.com/Integerous/goQuality-dev-contents)
+- [Hyperledger Fabric Inttions/)
 - [Top 55 blockchain interview in 2019 (영문)](https://www.edureka.co/blog/interview-questions/blockchain-interview-questions/)
 - [하이퍼레저 패브릭 소개 및 구조 설명](https://blog.naver.com/mage7th/221493540794)
 - [블록체인 기술 개요 - 아이콘루프](https://blog.theloop.co.kr/2017/03/15/%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8-%ea%b8%b0%ec%88%a0-%ea%b0%9c%ec%9a%94/)
