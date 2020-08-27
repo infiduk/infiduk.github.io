@@ -237,6 +237,16 @@ const nextState = produce(baseState, draftState => {
   - `Redux` 에서는 매번 `Context` 를 새로 만드는 수고를 덜 수 있음
 
 ## React memo
+- `React` 는 먼저 `Component` 를 `렌더링(Rendering)` 한 뒤, 이전 렌더링 결과와 비교하여 결과가 다를 경우 `DOM` 을 업데이트 함
+- `Component `가 `React.memo()` 로 래핑될 때 `React` 는 `Component` 를 렌더링하고 결과를 `메모이징(Memoizing)` 하며, 다음 렌더링 시 `props` 가 같다면 메모이징된 결과를 가져옴
+- 컴포넌트의 `props` 가 바뀌지 않았다면, 리렌더링을 방지하여 `Component` 의 리렌더링 성능 최적화를 해줌
+- 렌더링 최적화가 필요하지 않은 `Component` 에 `React.memo()` 를 사용하는 것은 불필요한 `props` 비교만 하는 것이기 때문에 꼭 필요한 경우에만 사용하는 게 좋음
+- 두번째 `parameter` 에 `propsAreEqual` 함수를 사용하여 특정 값들만 바뀌었는지 비교할 수 있음
+
+``` javascript
+// 메모이징된 MemoizedComponent 를 반환
+export const MemoizedComponent = React.memo(comp);
+```
 
 ## Redux actions
 
@@ -249,3 +259,4 @@ const nextState = produce(baseState, draftState => {
 - [리덕스](https://react.vlpt.us/redux/)
 - [Redux-React의 기본](https://velog.io/@jeonghoheo/Redux-React-요약)
 - [Context API 사용하기](https://velog.io/@kwonh/React-Context-API-사용하기)
+- [React.memo() 현명하게 사용하기](https://ui.toast.com/weekly-pick/ko_20190731/)
