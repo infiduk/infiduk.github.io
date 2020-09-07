@@ -250,6 +250,61 @@ export const MemoizedComponent = React.memo(comp);
 
 ## Redux actions
 
+### CreateAction
+- 액션 생성 자동화를 시켜줌
+
+``` javascript
+import { createAction } from "redux-actions";
+
+// 액션 생성 함수를 만드는 일반적인 방법
+export const increase = () => ({ type: INCREASE });
+export const decrease = () => ({ type: DECREASE });
+
+// CreateAction 을 활용하여 액션 생성 함수를 만드는 방법
+export const increase = createAction(INCREASE);
+export const decrease = createAction(DECREASE);
+```
+
+### handleActions
+- 각 `Action` 마다 `update` 함수를 설정
+- 첫번째 `parameter` 에는 각 `Action` 에 대한 `update` 함수를 넣어주고, 두번째 `parameter` 에는 초기 상태 값을 넣어줌
+
+``` javascript
+import { createAction, handleActions } from "redux-actions";
+
+// 초기 상태 값
+const initialState = {
+  number: 0
+};
+
+// handleActions 를 활용하여 각 action 마다 update 함수를 설정
+const counter = handleActions(
+  {
+    [INCREASE]: (state, action) => ({ number: state.number + 1 }),
+    [DECREASE]: (state, action) => ({ number: state.number - 1 })
+  },
+  initialState
+);
+
+// switch-case 방법으로 각 action 마다 update 함수를 설정
+function counter(state = initialState, action) {
+  switch (action.type) {
+    case INCREASE:
+      return {
+        number: state.number + 1
+      };
+    case DECREASE:
+      return {
+        number: state.number - 1
+      };
+    default:
+      return state;
+  }
+}
+
+export default counter;
+```
+
 ## 참고
 - [Using the spread operator in React setState](https://medium.com/@thejasonfile/using-the-spread-operator-in-react-setstate-c8a14fc51be1)
 - [Spread 연산자, Rest 파라미터](https://velog.io/@chlwlsdn0828/Js-Spread-%EC%97%B0%EC%82%B0%EC%9E%90-Rest-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0)
