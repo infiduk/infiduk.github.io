@@ -286,7 +286,7 @@ const value = useContext(context);
   - `Context API`의 경우 `useReducer` 를 사용할 때 `Context` 를 새로 생성하고, `Provider` 를 설정하고, `전용 Custom Hook` 을 따로 만들어서 사용
   - `Redux` 의 경우 상태, 액션 생성 함수를 `Component의 props` 로 받아올 수 있음
   - `useSelector`, `useDispatch`, `useStore` 등의 Hook 을 사용해 상태를 조회하거나 디스패치 함
-  `Context API` 는 `Context` 가 지니고 있는 상태가 바뀌면 해당 `Context` 의 내부 `Component` 들이 모두 리렌더링 되지만, `Redux` 는 실제 상태가 바뀔 때만 리렌더링
+  - `Context API` 는 `Context` 가 지니고 있는 상태가 바뀌면 해당 `Context` 의 내부 `Component` 들이 모두 리렌더링 되지만, `Redux` 는 실제 상태가 바뀔 때만 리렌더링
 3. 상태를 관리할 때
   - `Context API` 를 사용해 글로벌 상태를 관리할 때는 기능별로 `Context` 를 만들어서 관리 (필수적인 것은 아님)
   - `Redux` 에서는 모든 글로벌 상태를 커다란 상태 객체에 넣어서 사용해야 함
