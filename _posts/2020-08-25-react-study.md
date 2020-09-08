@@ -39,6 +39,7 @@ func(1, 2, 3);
 - `React` 에서 배열이나 객체를 업데이트 할 때, 직접 수정은 불가능 (기존의 배열, 객체도 함께 수정됨)
 - 객체의 경우 전개 연산자(...)를 이용해 값을 수정했고, 배열은 전개 연산자와 concat, filter, map 등을 이용하여 수정
 - 불변성을 지켜주면서 값을 수정할 수 있게 하는 라이브러리
+- `immer` 를 사용하면 편리하지만 성능적으로는 `immer` 를 사용하지 않은 쪽이 조금 더 빠름
 
 ``` javascript
 // produce 로 불러옴
@@ -62,6 +63,42 @@ const nextState = produce(baseState, draftState => {
   draftState.push({todo: "Tweet about it"})
   draftState[1].done = true
 })
+```
+
+### Immer 와 함수형 업데이트
+
+``` javascript
+// produce 의 첫번째 parameter 의 값을 생략하고 바로 업데이트 함수를 넣어주는 경우
+// 상태를 업데이트 해주는 함수가 될 수 있음
+const updater = produce(draft => {
+  draft.done = !draft.done;
+});
+const nextTodo = updater(todo);
+```
+
+``` javascript
+const [todo, setTodo] = useState({
+  text: 'Hello',
+  done: false
+});
+
+// setTodo 함수에 업데이트 함수를 해줌으로써
+// useCallback 의 두번째 parameter 인 deps 배열에 todo 를 넣지 않아도 됨
+const onClick = useCallback(() => {
+  setTodo(todo => ({
+    ...todo,
+    done: !todo.done
+  }));
+}, []);
+
+// immer 를 사용한 방법
+const onClick = useCallback(() => {
+  setTodo(
+    produce(draft => {
+      draft.done = !draft.done;
+    })
+  );
+}, []);
 ```
 
 ## Redux
@@ -220,6 +257,25 @@ const nextState = produce(baseState, draftState => {
 ## Redux saga
 
 ## Context API
+- 프로젝트 내에서 전역적으로 사용할 수 있는 값을 관리할 수 있도록 함
+- `함수`, `외부 라이브러리 인스턴스`, `DOM` 등 다양한 값을 관리할 수 있음
+- `Context` 생성 시 `Provider` 라는 `Component` 가 있는데, 이 `Component` 의 `value` 를 이용해 `Context` 의 값을 정할 수 있음
+- `Provider` 로 감싸진 `Component` 라면 어디서든지 `Context` 의 값을 사용할 수 있음
+
+``` javascript
+// Context 를 생성할 때는 아래의 함수를 이용하여 만듦
+// parameter 로 Context 의 default 값을 설정할 수 있음
+export const context = React.createContext();
+
+<context.Provider value={value}>
+  ...
+</context.Provider>
+```
+
+``` javascript
+// Context 의 값을 가져올 때는 useContext() 를 사용
+const value = useContext(context);
+```
 
 ### Redux 와 Context API 의 차이
 1. `Redux` 에는 미들웨어 개념이 존재
