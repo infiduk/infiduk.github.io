@@ -113,8 +113,15 @@ Blockchain Interview Questions
   - 로컬 MSP와 채널 MSP는 동작 방식이 아닌 동작 범위의 차이점이 있다.
 
 ### Hyperledger Fabric 5. 하이퍼레저 패브릭 채널 MSP와 네트워크 MSP
+- Channel MSP와 Network MSP는 Global(글로벌) MSP로, 블록체인 네트워크에 참여한 모든 구성원에 적용된다.
+- Global MSP에 정의된 내용에 따라서 블록체인 네트워크가 구성되고 제네시스 블록과 채널을 구성하는 트랜잭션에 포함된다.
 - Channel MSP
+  - 특정 채널에 참여하는 조직(Org)의 MSP를 식별한다.
+  - 채널의 관리 권한을 Channel Policy 등으로 정의한다.
 - Network MSP
+  - 네트워크에 참여하는 조직(Org)의 MSP를 식별한다.
+  - 어떤 조직이 블록체인 네트워크에 참여할지 정하는 역할
+  - 네트워크를 관리하는 권한을 가진 참여자를 식별한다.
 
 ### Hyperledger Fabric 7. 하이퍼레저 패브릭 Fabric-CA가 하는 역할
 - Fabric CA
@@ -160,15 +167,12 @@ Blockchain Interview Questions
 - 부정 노드가 있어도 과반 이상을 확보해야 하고, 리더가 부정 노드일 경우에도 모든 노드가 리더를 감시하고 있기 때문에 시스템적인 장애에 강하다.
 - 모든 노드들과 의사결정을 해야하기 때문에 노드의 수가 제한적이다.
 
-<!-- ### Consensus 5. DPOS 알고리즘
--  -->
-
 ## 참고 사이트erview Questions (영문)](https://vitalflux.com/hyperledger-fabric-distributed-ledger-interview-questions-notes/)
 - [2018년 12월 hyperledger fabric interview questions (영문)](https://www.biganalytics.me/2018/12/hyperledger-fabric-real-interview.html)
 - [Top blockchain interview questions (영문)](https://intellipaat.com/blog/interview-question/blockchain-interview-ques
 - [goQuality-dev-contents](https://github.com/Integerous/goQuality-dev-contents)
-- [Hyperledger Fabric Inttions/)
 - [Top 55 blockchain interview in 2019 (영문)](https://www.edureka.co/blog/interview-questions/blockchain-interview-questions/)
 - [하이퍼레저 패브릭 소개 및 구조 설명](https://blog.naver.com/mage7th/221493540794)
 - [블록체인 기술 개요 - 아이콘루프](https://blog.theloop.co.kr/2017/03/15/%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8-%ea%b8%b0%ec%88%a0-%ea%b0%9c%ec%9a%94/)
 - [LINE 개발자분 인터뷰](https://blog.naver.com/PostView.nhn?blogId=mage7th&logNo=221575023525)
+- [하이퍼레저 패브릭 구조 CA/MSP](https://hcnam.tistory.com/23)
