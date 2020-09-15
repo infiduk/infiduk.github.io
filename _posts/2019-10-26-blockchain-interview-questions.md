@@ -167,6 +167,14 @@ Blockchain Interview Questions
 - 부정 노드가 있어도 과반 이상을 확보해야 하고, 리더가 부정 노드일 경우에도 모든 노드가 리더를 감시하고 있기 때문에 시스템적인 장애에 강하다.
 - 모든 노드들과 의사결정을 해야하기 때문에 노드의 수가 제한적이다.
 
+### Consensus 5. DPOS 알고리즘
+- POS 방식을 확장한 형태로, 네트워크 참여자들이 투표를 통해 대표를 선출하고, 당신된 대표들이 블록을 생성한다.
+- 대표로 당선된 참여자(BP)는 블록을 생성하는 의사결정, 운영과 감시 역할 등의 일을 수행하고 보상으로 신규 발행된 코인을 받는다.
+- 선출된 노드가 잘못된 행동을 했을 경우 다른 노드로 교체되고 즉시 퇴출된다.
+- 선출된 참여자들만 블록 생성과 검증을 진행하므로 속도가 빠르고 확장 가능하다는 장점이 있다.
+- 소수가 네트워크를 관리하기 때문에 완전한 탈중앙화가 아니고, BP들의 단합이 있을 수 있다는 단점이 있다.
+- 이오스, 스팀 등에서 채택한 알고리즘 방식이다.
+
 ## 참고 사이트erview Questions (영문)](https://vitalflux.com/hyperledger-fabric-distributed-ledger-interview-questions-notes/)
 - [2018년 12월 hyperledger fabric interview questions (영문)](https://www.biganalytics.me/2018/12/hyperledger-fabric-real-interview.html)
 - [Top blockchain interview questions (영문)](https://intellipaat.com/blog/interview-question/blockchain-interview-ques
@@ -176,3 +184,5 @@ Blockchain Interview Questions
 - [블록체인 기술 개요 - 아이콘루프](https://blog.theloop.co.kr/2017/03/15/%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8-%ea%b8%b0%ec%88%a0-%ea%b0%9c%ec%9a%94/)
 - [LINE 개발자분 인터뷰](https://blog.naver.com/PostView.nhn?blogId=mage7th&logNo=221575023525)
 - [하이퍼레저 패브릭 구조 CA/MSP](https://hcnam.tistory.com/23)
+- [합의 알고리즘 세번째, DPOS(위임지분증명방식)](https://www.tokenbank.co.kr/community/view/37917/)
+- [위임지분증명](http://wiki.hash.kr/index.php/%EC%9C%84%EC%9E%84%EC%A7%80%EB%B6%84%EC%A6%9D%EB%AA%85)
