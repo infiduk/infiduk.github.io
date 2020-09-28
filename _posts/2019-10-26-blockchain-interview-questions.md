@@ -123,6 +123,16 @@ Blockchain Interview Questions
   - 어떤 조직이 블록체인 네트워크에 참여할지 정하는 역할
   - 네트워크를 관리하는 권한을 가진 참여자를 식별한다.
 
+### Hyperledger Fabric 6. 하이퍼레저 패브릭의 nonce 와 이더리움의 nonce
+- Hyperledger Fabric nonce
+  - 하이퍼레저 패브릭에서 replay attack을 막는 데 사용된다.
+  - nonce는 랜덤으로 생성되는 값이고, 각 트랜잭션마다 하나씩 가지고 있으며, ledger에 그대로 기록된다.
+  - nonce 검증은 해당 트랜잭션에 대해 ledger에 동일한 트랜잭션 ID를 가지고 있는 트랜잭션이 있는지에 대한 중복 검사를 통해 검증하는 방식이다.
+  - 상대적으로 address 마다 존재하는 nonce를 가진 Ethereum 보다 상태, 검증의 낭비가 심하다. (user의 정보가 unique한 key로 존재하지 않기 때문)
+- Ethereum nonce
+  - 이더리움에서의 nonce는 각 address 마다 가지고 있으며, 1씩 증가되는 값이다.
+  - nonce 검증은 address에 있는 nonce와 비교하며 검증한다.
+
 ### Hyperledger Fabric 7. 하이퍼레저 패브릭 Fabric-CA가 하는 역할
 - Fabric CA
   - 내장 CA 구성요소로, X.509 디지털 인증서 형태의 개인 Root CA 공급자
