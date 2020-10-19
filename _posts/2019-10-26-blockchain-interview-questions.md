@@ -96,9 +96,18 @@ Blockchain Interview Questions
   - 독립된 블록체인 네트워크를 가지고 있는 암호화폐 (ex. BTC, ETH ...)
 
 ### Blockchain 4. 이더리움에서 ERC20 표준을 만든 이유
-- ERC20이란 이더리움 블록체인 네트워크에서 정한 표준 토큰 스펙으로, 토큰끼리의 호환성을 위해 만듦
+- ERC20 이란 이더리움 블록체인 네트워크에서 정한 표준 토큰 스펙으로, 토큰끼리의 호환성을 위해 만듦
 - ERC20 기반 토큰들은 동일한 이더리움 지갑으로 전송이 가능함
 - ERC20 표준 호환 토큰들은 나중에 통합되어 한번에 이더로 모두 바꾸어 현금화가 가능함
+
+### Ethereum 10. EIP-55 체크섬
+- EIP-55 체크섬이란 이더리움 주소 유효성을 체크하는 것
+- 이더리움 주소에 체크섬을 추가하여 주소의 무결성을 검증하고 오류로 부터 보호함
+- 16진수 주소 중 일부를 대문자화 하여 구버전과 호환되도록 함 (이더리움 주소는 대소문자 구분 X)
+- EIP-55 체크섬 적용하는 방식
+  - 0x를 제외한 소문자로 된 주소의 해시값을 구함
+  - 주소와 주소 해시 값이 같은 문자끼리 비교
+  - 해시 값이 0x8과 같거나 큰 경우 대문자로 바꿔줌
 
 ### Hyperledger Fabric 1. 하이퍼레저 패브릭 트랜잭션 흐름
 ![image_01](https://user-images.githubusercontent.com/48206157/68653439-16c8f980-056f-11ea-92b7-9a7178a73423.png)
@@ -211,3 +220,4 @@ Blockchain Interview Questions
 - [하이퍼레저 패브릭 구조 CA/MSP](https://hcnam.tistory.com/23)
 - [합의 알고리즘 세번째, DPOS(위임지분증명방식)](https://www.tokenbank.co.kr/community/view/37917/)
 - [위임지분증명](http://wiki.hash.kr/index.php/%EC%9C%84%EC%9E%84%EC%A7%80%EB%B6%84%EC%A6%9D%EB%AA%85)
+- [이더리움 키와 주소](https://anpigon.github.io/blog/kr/@anpigon/ethereum-1/)
