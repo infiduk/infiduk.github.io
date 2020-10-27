@@ -213,6 +213,7 @@ Blockchain Interview Questions
 - 자바의 메서드 인자 전달 방식
   - Call by Value
   - 필드 값을 변경하는 부분에서 Call by Reference 같이 동작하는 것 처럼 보이지만, 해당 주소를 복사한 참조 값을 전달하는 것이기 때문에 새로운 변수가 생성되는 개념으로 이해하면 됨
+  
   ``` java
   class ExClass {
     int index;
