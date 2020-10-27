@@ -267,7 +267,8 @@ Blockchain Interview Questions
   - 객체 수가 많을 수록 메모리를 많이 점유함
   - 원본 객체가 변경되더라도 복사한 객체의 값은 변경되지 않음
 
-## 참고 사이트erview Questions (영문)](https://vitalflux.com/hyperledger-fabric-distributed-ledger-interview-questions-notes/)
+## 참고 사이트
+- [Hyperledger Fabric Interview Questions](https://vitalflux.com/hyperledger-fabric-distributed-ledger-interview-questions-notes/)
 - [2018년 12월 hyperledger fabric interview questions (영문)](https://www.biganalytics.me/2018/12/hyperledger-fabric-real-interview.html)
 - [Top blockchain interview questions (영문)](https://intellipaat.com/blog/interview-question/blockchain-interview-questions/)
 - [goQuality-dev-contents](https://github.com/Integerous/goQuality-dev-contents)
