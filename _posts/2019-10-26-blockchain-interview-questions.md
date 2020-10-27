@@ -209,9 +209,67 @@ Blockchain Interview Questions
 - 소수가 네트워크를 관리하기 때문에 완전한 탈중앙화가 아니고, BP들의 단합이 있을 수 있다는 단점이 있다.
 - 이오스, 스팀 등에서 채택한 알고리즘 방식이다.
 
+### 블록체인 소프트웨어 일반/C++/Java/Go 1. 자바의 메서드 인자 전달 방식과 Shallow Copy, Deep Copy
+- 자바의 메서드 인자 전달 방식
+  - Call by Value
+  - 필드 값을 변경하는 부분에서 Call by Reference 같이 동작하는 것 처럼 보이지만, 해당 주소를 복사한 참조 값을 전달하는 것이기 때문에 새로운 변수가 생성되는 개념으로 이해하면 됨
+  ``` java
+  class ExClass {
+    int index;
+
+    public ExClass(int index) {
+      this.index = index;
+    }
+
+    public int getIndex() {
+      return index;
+    }
+
+    public void setIndex(int index) {
+      this.index = index;
+    }
+  }
+
+  public class ValueOrRef {
+    public static void main(String[] args) {
+      ExClass ex1 = new ExClass(1);
+      ExClass ex2 = new ExClass(2);
+
+      // 출력 결과 두 값이 바뀌지 않음
+      swapRef(ex1, ex2);
+
+      // 출력 결과 두 값이 바뀜
+      swapVal(ex1, ex2);
+
+      static void swapRef(ExClass ex1, ExClass ex2) {
+        ExClass tmp = ex1;
+        ex1 = ex2;
+        ex2 = tmp;
+      }
+
+      static void swapVal(ExClass ex1, ExClass ex2) {
+        int tmp = ex1.getIndex();
+        ex1.setIndex(ex2.getIndex());
+        ex2.setIndex(tmp);
+      }
+    }
+  }
+  ```
+- Shallow Copy (얕은 복사)
+  - 원본 참조 변수의 참조 값만 복사
+  - 원본 객체를 바탕으로 새로운 객체를 생성하고, 내부 필드의 참조에 대해서는 원본 객체와 같은 필드의 참조를 바라봄 (서로 연관 있음)
+  - 같은 객체를 공유함으로써 메모리에 대한 비용을 아낄 수 있음, Deep Copy에 비해 상대적으로 빠름
+  - 원본 객체가 변경되면 복사한 객체의 값도 변경됨
+- Deep Copy (깊은 복사)
+  - 원본 참조 변수의 참조 값이 가르키는 객체를 메모리 공간에 복사한 후 복사한 객체를 가르킴
+  - 원본 객체를 바탕으로 새로운 객체를 생성하고, 내부 필드가 참조하는 객체에 대해서도 새로운 객체를 바라봄 (서로 연관 없음)
+  - 객체 생성 비용이 비싸고 Shallow Copy에 비해 상대적으로 느림
+  - 객체 수가 많을 수록 메모리를 많이 점유함
+  - 원본 객체가 변경되더라도 복사한 객체의 값은 변경되지 않음
+
 ## 참고 사이트erview Questions (영문)](https://vitalflux.com/hyperledger-fabric-distributed-ledger-interview-questions-notes/)
 - [2018년 12월 hyperledger fabric interview questions (영문)](https://www.biganalytics.me/2018/12/hyperledger-fabric-real-interview.html)
-- [Top blockchain interview questions (영문)](https://intellipaat.com/blog/interview-question/blockchain-interview-ques
+- [Top blockchain interview questions (영문)](https://intellipaat.com/blog/interview-question/blockchain-interview-questions/)
 - [goQuality-dev-contents](https://github.com/Integerous/goQuality-dev-contents)
 - [Top 55 blockchain interview in 2019 (영문)](https://www.edureka.co/blog/interview-questions/blockchain-interview-questions/)
 - [하이퍼레저 패브릭 소개 및 구조 설명](https://blog.naver.com/mage7th/221493540794)
@@ -221,3 +279,5 @@ Blockchain Interview Questions
 - [합의 알고리즘 세번째, DPOS(위임지분증명방식)](https://www.tokenbank.co.kr/community/view/37917/)
 - [위임지분증명](http://wiki.hash.kr/index.php/%EC%9C%84%EC%9E%84%EC%A7%80%EB%B6%84%EC%A6%9D%EB%AA%85)
 - [이더리움 키와 주소](https://anpigon.github.io/blog/kr/@anpigon/ethereum-1/)
+- [Java 메소드 호출 방식](https://velog.io/@ditt/Java-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C-%EB%B0%A9%EC%8B%9D)
+- [Shallow Copy와 Deep Copy](https://jaehun2841.github.io/2019/01/13/java-object-copy/#deep-copy)
