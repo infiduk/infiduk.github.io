@@ -30,6 +30,7 @@ key: page-about
 초보 개발자에서 보스 개발자로!!
 <br /><b>블록체인</b> 공부 ing
 <br /><br />![chart](https://ghchart.rshah.org/infiduk)
+<br /><br />![hits](https://hits.dwyl.com/infiduk.svg)
 
 ## 기술
 - Blockchain: Hyperledger-Fabric, Ethereum
