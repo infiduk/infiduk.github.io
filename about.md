@@ -27,20 +27,24 @@ key: page-about
 ---
 
 ## 1일 1커밋 도전 중!
-초보 개발자에서 보스 개발자로!!
+
+Front 개발자 (Vue)
 <br /><b>블록체인</b> 공부 ing
 <br /><br />![chart](https://ghchart.rshah.org/infiduk)
 <br /><br />![hits](https://hits.dwyl.com/infiduk.svg)
 
 ## 기술
+
 - Blockchain: Hyperledger-Fabric, Ethereum
 - Language: Javascript, Java, C/C++
 - DB: RDBMS, NoSQL
 
 ## 관심 분야
-- dApp 개발 / Blockchain Network 
+
+- dApp 개발 / Blockchain Network
 
 ## 활동 및 수상
+
 Coinplug, Glosfer
 <br />2019.06 ~ 2019.11 디지털 트랜스포메이션을 위한 블록체인 비즈니스 청년혁신가 집중 양성 교육 수료 (프로젝트 최우수상, 출석우수상)
 <br />2019.01 ~ 2019.05 이더리움 연구회 5기 - dApp 분과
