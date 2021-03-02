@@ -28,15 +28,15 @@ key: page-about
 
 ## 1일 1커밋 도전 중!
 
-Front 개발자 (Vue)
+Front Developer
 <br /><b>블록체인</b> 공부 ing
 <br /><br />![chart](https://ghchart.rshah.org/infiduk)
-<br /><br />![hits](https://hits.dwyl.com/infiduk.svg)
+<br /><br />[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Finfiduk&count_bg=%23EDD513&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hi%2C+there%21&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ## 기술
 
 - Blockchain: Hyperledger-Fabric, Ethereum
-- Language: Javascript, Java, C/C++
+- Language: Javascript, Typescript, C/C++, Python, Java
 - DB: RDBMS, NoSQL
 
 ## 관심 분야
