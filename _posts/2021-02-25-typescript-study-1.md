@@ -211,7 +211,11 @@ console.log(`(out) Favorite Color: ${favoriteColor}`);
 
 const 로 변수를 선언하면 선언할 때 초기화는 가능하지만 다른 값으로 재할당하지 못하게 하는 읽기 전용(read only) 변수로 만들 수 있습니다.
 
-예외적으로 const 로 선언한 변수라도 객체 리터럴의 속성으로는 변경할 수 있는데, 이는 값 자체를 재할당하는 것은 허용하지 않지만 속성 값의 변경은 허용하는 특징이 있기 때문입니다.
+예외적으로, const 로 선언한 변수라도 객체 리터럴의 속성으로는 변경할 수 있습니다.
+
+이는 값 자체를 재할당하는 것은 허용하지 않지만 속성 값의 변경은 허용하는 특징이 있기 때문입니다.
+
+아래 예제 코드로 설명해드리겠습니다.
 
 ```typescript
 const favoriteMonth = "12";
@@ -228,7 +232,7 @@ person = {
   month: 9,
 }; // Uncaught TypeError: Assignment to constant variable.
 
-// 객체 리터럴의 속성으로 값 변경이 가능합니다.
+// 객체 리터럴의 속성으로는 값 변경이 가능합니다.
 person.name = "Sera";
 person.month++;
 ```
