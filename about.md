@@ -26,7 +26,9 @@ titles:
 key: page-about
 ---
 
-### 1일 1커밋 도전 중!
+Hi, there!
+
+## 1일 1커밋 도전 중!
 
 Front Developer
 <br /><b>블록체인</b> 공부 ing
