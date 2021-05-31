@@ -16,9 +16,9 @@ Nuxt component with infinite scroll
 
 사용자가 페이지네이션을 위해 추가적인 동작을 하지 않아도 자연스럽게 다음 콘텐츠를 볼 수 있는 기능입니다.
 
-아래 예시를 보시면 아~ 이거구나 하고 유추하실 수 있으실거예요.
+<!-- 아래 예시를 보시면 아~ 이거구나 하고 유추하실 수 있으실거예요.
 
-<iframe src="https://user-images.githubusercontent.com/48206157/120126685-0a130180-c1f8-11eb-81a7-87864d34aabf.mov" frameborder="0"></iframe>
+[video_01](https://user-images.githubusercontent.com/48206157/120126685-0a130180-c1f8-11eb-81a7-87864d34aabf.mov) -->
 
 ## Nuxt에서 무한 스크롤을 구현하는 방법
 
@@ -208,7 +208,9 @@ export default {
 
 ### 실행
 
-프로젝트를 실행하고, `/test` 로 접속해보면 위에서 본 예제와 같은 화면을 보실 수 있습니다!
+프로젝트를 실행하고, `/test` 로 접속해보면 무한 스크롤 기능을 확인하실 수 있습니다!
+
+<!-- 위에서 본 예제와 같은 화면을 보실 수 있습니다! -->
 
 ## 참고
 
