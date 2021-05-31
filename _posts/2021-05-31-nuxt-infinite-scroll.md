@@ -5,23 +5,27 @@ tags: study vue nuxt javascript typescript
 comments: true
 ---
 
+https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://infiduk.github.io/2021/05/30/nuxt-infinite-scroll.html&count_bg=%23EDD513&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%E2%9C%A8+Hi%2C+there%21+%E2%9C%A8&edge_flat=false
+
 넉스트(Nuxt)에서 무한 스크롤(infinite scroll) 구현하기
 Nuxt component with infinite scroll
 
 ## 무한 스크롤(infinite scroll)?
 
 무한 스크롤이란 사용자가 아래로 스크롤했을 때 현재 보고있는 콘텐츠의 더 많은 내용이 페이지 하단에 나타나도록 하여
+
 사용자가 페이지네이션을 위해 추가적인 동작을 하지 않아도 자연스럽게 다음 콘텐츠를 볼 수 있는 기능입니다.
 
 아래 예시를 보시면 아~ 이거구나 하고 유추하실 수 있으실거예요.
 
-[video_01](https://user-images.githubusercontent.com/48206157/120126685-0a130180-c1f8-11eb-81a7-87864d34aabf.mov)
+<iframe src="https://user-images.githubusercontent.com/48206157/120126685-0a130180-c1f8-11eb-81a7-87864d34aabf.mov" frameborder="0"></iframe>
 
 ## Nuxt에서 무한 스크롤을 구현하는 방법
 
 이번 프로젝트는 nuxt를 사용하는 프로젝트이기 때문에, nuxt 환경에서 무한 스크롤을 구현하는 방법으로 진행하겠습니다.
 
 데이터는 배열로 관리하고, 추가되는 데이터는 순서대로 배열에 push 됩니다.
+
 간단한 기능 구현이기 때문에 에러 케이스들의 처리는 구현하지 않았습니다.
 
 ### vue-infinite-loading package 설치
@@ -31,6 +35,7 @@ Nuxt component with infinite scroll
 [vue-infinite-loading](https://www.npmjs.com/package/vue-infinite-loading)
 
 개인적으로 패키지를 사용하지 않고 직접 구현하고 싶었는데,
+
 시간 관계 상 이번에는 패키지를 다운받아 적용하고 추후 여유가 생긴다면 **꼭! 직접 구현해 볼 생각입니다.**
 
 아래의 명령어를 통해 패키지를 다운받아줍니다.
@@ -69,7 +74,9 @@ Vue.use(InfiniteLoading, {
 `slot` 은 추가적인 데이터를 가져올 때 나타내는 메시지를 커스텀할 수 있습니다.
 
 현재 프로젝트에서는 가져올 데이터가 없을 때 (noMore)의 메시지만 커스텀했는데
+
 추가적으로 데이터가 없을 때 (noResult),
+
 데이터를 가져오는 도중 에러가 발생했을 때 (error) 등의 메시지도 커스텀할 수 있습니다.
 
 ```javascript
@@ -82,7 +89,9 @@ Vue.use(InfiniteLoading, {
 `props` 는 기능 상의 옵션을 커스텀할 수 있습니다.
 
 현재 프로젝트에서는 `spinner` 의 모양만 커스텀했는데
+
 하단 어느 위치에 도달했을 때 추가로 데이터를 가져올지 (distance),
+
 데이터가 추가되는 방향 (direction) 등을 커스텀할 수 있습니다.
 
 ```javascript
