@@ -128,7 +128,7 @@ plugins: [{ src: "~/plugins/infinite-loading", ssr: false }],
 <template>
   <div>
     <div v-for="(item, idx) in scrollData" :key="idx">
-      <div style="padding: 5px;">{{ item.id }} - {{ item.body }}</div>
+      <div style="padding: 5px;">{{{{ item.id }}}} - {{{{ item.body }}}}</div>
     </div>
     <br />
     <infinite-loading
