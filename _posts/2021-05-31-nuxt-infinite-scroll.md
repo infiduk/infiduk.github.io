@@ -122,13 +122,13 @@ plugins: [{ src: "~/plugins/infinite-loading", ssr: false }],
 
 무한 스크롤 기능을 적용할 component를 만들어줍니다.
 
-```javascript
+```html
 // components/InfiniteList.vue
 
 <template>
   <div>
     <div v-for="(item, idx) in scrollData" :key="idx">
-      <div style="padding: 5px;">{{{{ item.id }}}} - {{{{ item.body }}}}</div>
+      <div style="padding: 5px;">{{ item.id }} - {{ item.body }}</div>
     </div>
     <br />
     <infinite-loading
@@ -139,46 +139,46 @@ plugins: [{ src: "~/plugins/infinite-loading", ssr: false }],
 </template>
 
 <script>
-import axios from "axios";
+  import axios from "axios";
 
-export default {
-  name: "InfiniteList",
-  data() {
-    return {
-      scrollData: [],
-      page: 1
-    };
-  },
-  computed: {
-    url() {
-      // free fake api 사용
-      return "https://jsonplaceholder.typicode.com/posts?_page=" + this.page;
-    }
-  },
-  created() {
-    this.fetchData();
-  },
-
-  methods: {
-    async fetchData() {
-      const response = await axios.get(this.url);
-      this.scrollData = response.data;
+  export default {
+    name: "InfiniteList",
+    data() {
+      return {
+        scrollData: [],
+        page: 1,
+      };
     },
-    scrolling($state) {
-      // 스크롤이 페이지 하단에 위치해도 약간의 딜레이를 주고 데이터를 가져옴
-      setTimeout(async () => {
-        this.page++;
+    computed: {
+      url() {
+        // free fake api 사용
+        return "https://jsonplaceholder.typicode.com/posts?_page=" + this.page;
+      },
+    },
+    created() {
+      this.fetchData();
+    },
+
+    methods: {
+      async fetchData() {
         const response = await axios.get(this.url);
-        if (response && response.data.length > 1) {
-          response.data.forEach(item => this.scrollData.push(item));
-          $state.loaded();
-        } else {
-          $state.complete();
-        }
-      }, 500);
-    }
-  }
-};
+        this.scrollData = response.data;
+      },
+      scrolling($state) {
+        // 스크롤이 페이지 하단에 위치해도 약간의 딜레이를 주고 데이터를 가져옴
+        setTimeout(async () => {
+          this.page++;
+          const response = await axios.get(this.url);
+          if (response && response.data.length > 1) {
+            response.data.forEach((item) => this.scrollData.push(item));
+            $state.loaded();
+          } else {
+            $state.complete();
+          }
+        }, 500);
+      },
+    },
+  };
 </script>
 ```
 
