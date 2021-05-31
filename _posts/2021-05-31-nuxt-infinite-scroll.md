@@ -5,7 +5,7 @@ tags: study vue nuxt javascript typescript
 comments: true
 ---
 
-https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://infiduk.github.io/2021/05/30/nuxt-infinite-scroll.html&count_bg=%23EDD513&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%E2%9C%A8+Hi%2C+there%21+%E2%9C%A8&edge_flat=false
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://infiduk.github.io/2021/05/30/nuxt-infinite-scroll.html&count_bg=%23EDD513&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%E2%9C%A8+Hi%2C+there%21+%E2%9C%A8&edge_flat=false" /></a>
 
 넉스트(Nuxt)에서 무한 스크롤(infinite scroll) 구현하기
 Nuxt component with infinite scroll
