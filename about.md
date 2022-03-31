@@ -26,19 +26,18 @@ titles:
 key: page-about
 ---
 
-Hi, there!
+<b>Coinplug Frontend Developer (Vue(Nuxt) + Typescript)</b>
+[METAPiE - NFT Marketplace](https://metapie.io)
 
 ## 1일 1커밋 도전 중!
 
-Front Developer
-<br /><b>블록체인</b> 공부 ing
+블록체인, 그리고 알고리즘 공부 ing
 <br /><br />![chart](https://ghchart.rshah.org/infiduk)
 
 ## 기술
 
-- Blockchain: Hyperledger-Fabric, Ethereum
-- Language: Javascript, Typescript, C/C++, Python, Java
-- DB: RDBMS, NoSQL
+- Blockchain(studying): Hyperledger-Fabric, Ethereum
+- Language: Javascript, Typescript / C/C++, Python, Java
 
 ## 관심 분야
 
@@ -46,7 +45,7 @@ Front Developer
 
 ## 활동 및 수상
 
-Coinplug, Glosfer
+2022.04 ~ 사내 알고리즘 스터디 '111011001001010110001100111010101011001110100000111010111010011010101100111011001010011010011000' 운영
 <br />2019.06 ~ 2019.11 디지털 트랜스포메이션을 위한 블록체인 비즈니스 청년혁신가 집중 양성 교육 수료 (프로젝트 최우수상, 출석우수상)
 <br />2019.01 ~ 2019.05 이더리움 연구회 5기 - dApp 분과
 <br />2018.04 ~ 2018.11 2018 이브와 ICT 멘토링 진행 (금상 - 과학기술정보통신부 장관상)
