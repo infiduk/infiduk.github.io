@@ -147,6 +147,6 @@ _계모?흑묘?년 새해 복 많이 받으세요~ 모두 승승장구하시길 
 
 ## 참고
 
-- [오라클 문제](<[http://wiki.hash.kr/index.php/오라클_문제](http://wiki.hash.kr/index.php/%EC%98%A4%EB%9D%BC%ED%81%B4_%EB%AC%B8%EC%A0%9C)>)
+- [오라클 문제](http://wiki.hash.kr/index.php/%EC%98%A4%EB%9D%BC%ED%81%B4_%EB%AC%B8%EC%A0%9C)
 
-- [[블록체인- 오라클] 현실세계와 블록체인의 다리](<[https://blog.naver.com/giosw001/221338220069](https://blog.naver.com/giosw001/221338220069)>)
+- [[블록체인- 오라클] 현실세계와 블록체인의 다리](https://blog.naver.com/giosw001/221338220069)
