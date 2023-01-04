@@ -48,7 +48,7 @@ ethereum.request({
 
 토큰 추가 버튼을 누르면 익스텐션에 해당 토큰이 추가된 것을 확인할 수 있다.
 
-![Screenshot 2023-01-04 at 10.42.42.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ed9ca74d-ffed-4f14-ac67-4aa864301bdf/Screenshot_2023-01-04_at_10.42.42.png)
+![1.png](https://user-images.githubusercontent.com/48206157/210513798-cdedba55-c502-49a4-a183-886dbced92a1.png)
 
 ## 주저리
 
@@ -171,7 +171,7 @@ ethereum.request({
 
 토큰 추가 버튼을 누르면 익스텐션에 해당 토큰이 추가된 것을 확인할 수 있다.
 
-![Screenshot 2023-01-04 at 10.42.42.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ed9ca74d-ffed-4f14-ac67-4aa864301bdf/Screenshot_2023-01-04_at_10.42.42.png)
+![2.png](https://user-images.githubusercontent.com/48206157/210513798-cdedba55-c502-49a4-a183-886dbced92a1.png)
 
 완료~
 
