@@ -43,7 +43,7 @@ MetaMask Snaps
 
 이런 지갑들과 차별화 되는 메타 마스크의 특징은 다음과 같음
 
-1. 개인이 직접 키를 관리
+- 개인이 직접 키를 관리
 
 개인이 직접 키를 관리할 때의 이점으로 본인이 자산에 대한 모든 컨트롤이 가능해 지기 때문에
 
@@ -53,7 +53,7 @@ MetaMask Snaps
 
 메타 마스크가 설치된 어느 곳이든 본인의 지갑을 복구할 수 있음
 
-2. web3를 활용한 dApp과의 상호작용
+- web3를 활용한 dApp과의 상호작용
 
 메타 마스크는 단순히 거래 만을 위한 지갑이 아니라
 
@@ -63,7 +63,7 @@ NFT를 전송할 수 있고, Defi 서비스에서 내 자산을 관리할 수도
 
 dApp 개발자들도 본인들의 자산과 서비스를 자유롭게 테스트할 수 있음
 
-3. 편리한 사용
+- 편리한 사용
 
 메타 마스크는 크롬이나 파이어 폭스 같은
 
@@ -137,7 +137,7 @@ web3로 서비스를 개발하는 개발자와 해당 서비스를 사용하는 
 
 먼저 메타 마스크 스냅을 사용하려면 스냅의 권한 요청과 설치가 필요한데, 이때 사용하는 스냅이 있음
 
-1. `wallet_enable`
+- `wallet_enable`
 
 요 친구를 사용하면 계정을 가져오는 `eth_requestAccounts`,
 
@@ -167,7 +167,7 @@ await ethereum.request({
 
 ![wallet_enable](https://user-images.githubusercontent.com/110883511/218384247-7d7db5ff-84b8-49fb-95ff-9239adcb26a9.png)
 
-2. `snap_notify`
+- `snap_notify`
 
 다음으로 방금 예제에 있었던 `test-snap-notification`, 알림을 보내는 스냅을 알아보도록 하자
 
@@ -195,7 +195,7 @@ await wallet.request({
 
 `message` 로 띄우고 싶은 알림 메시지를 설정할 수 있음
 
-3. `snap_confirm`
+- `snap_confirm`
 
 이 친구는 메타 마스크로 커스텀 팝업 UI를 띄우는 역할을 함
 
@@ -223,7 +223,7 @@ await wallet.request({
 
 여기서 승인을 누르면 리턴 값으로 `true` 값이, 거부를 누르면 `false` 값이 내려옴
 
-4. `transaction-insight`
+- `transaction-insight`
 
 이 친구는 앞서 설명한 다른 친구들 과는 조금 다른 친구인데,
 
@@ -257,7 +257,7 @@ RPC 메소드 쓸 때 추가로 필요한 권한을 허용해주는 느낌이라
 
 스냅으로 만들어진 예제가 많지는 않은데, 매우 interesting 한 예제가 몇 개 있어서 가져와 봤음
 
-1. Solidity Course
+- Solidity Course
 
 [Solidity Course](https://blockchain-lab-um.github.io/course-dapp/)
 
@@ -271,7 +271,7 @@ DID를 생성하기 위해 필요한 인증 기관의 역할을 해준다고 보
 
 메타마스크 스냅을 이용해 더 넓고 포괄적인 인증 요청에 승인할 수 있음
 
-2. BitcoinSnap
+- BitcoinSnap
 
 [BitcoinSnap](https://btc.justsnap.io/)
 
