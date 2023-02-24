@@ -300,3 +300,4 @@ DID를 생성하기 위해 필요한 인증 기관의 역할을 해준다고 보
 ## 참고
 
 - [MetaMask Docs](https://docs.metamask.io/guide/snaps.html)
+- [template-snap-repo(TRUST SCORE)](https://github.com/Tbaut/template-snap-monorepo)
