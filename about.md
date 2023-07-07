@@ -26,29 +26,37 @@ titles:
 key: page-about
 ---
 
-<b>Coinplug Frontend Developer (Vue(Nuxt) + Typescript)</b>
-<br />[METAPiE - NFT Marketplace](https://metapie.io)
+<b>코인플러그에서 블록체인과 세상을 연결하는 프론트 개발자로 성장하고 있습니다.</b>
+<br />I'm growing up as a front-end developer connecting the blockchain to the world in Coinplug.
+<br /><br />진행 중인 프로젝트
+<br />[WEMIX.Fi](https://wemix.fi)
 
-## 1일 1커밋 도전 중!
+## Github Log
 
-블록체인, 그리고 알고리즘 공부 ing
+잔디정원사 인피덕
 <br /><br />![chart](https://ghchart.rshah.org/infiduk)
 
-## 기술
+## Tech
 
-- Blockchain: Hyperledger-Fabric, Ethereum
-- Language: Javascript, Typescript / C/C++, Python, Java
+dApp 개발 / Blockchain
+<br /><br />Javascript, Typescript
+<br />Vue/Nuxt와 React/Next를 사용하고 있습니다.
+<br />C/C++, Solidity
 
-## 관심 분야
+## Interest
 
-- dApp 개발 / Blockchain Network
+웹 성능 최적화
+<br /><s>그리고 메이플스토리</s>
 
-## 활동 및 수상
+## Activity
 
-2019.06 ~ 2019.11 디지털 트랜스포메이션을 위한 블록체인 비즈니스 청년혁신가 집중 양성 교육 수료 (프로젝트 최우수상, 출석우수상)
-<br />2019.01 ~ 2019.05 이더리움 연구회 5기 - dApp 분과
-<br />2018.04 ~ 2018.11 2018 이브와 ICT 멘토링 진행 (금상 - 과학기술정보통신부 장관상)
-<br /><br />해커톤 참여
+공모전
+<br />2023.06 2023년 코인플러그 제1회 사내 블록체인 활용 혁신 아이디어 공모전 (본선, 아차상, 연구소장상)
+<br /><br />활동
+<br />2019.06 ~ 2019.11 디지털 트랜스포메이션을 위한 블록체인 비즈니스 청년혁신가 집중 양성 교육 수료 (프로젝트 최우수상, 출석우수상)
+<br />2019.01 ~ 2019.05 이더리움 연구회 5기 (dApp 분과)
+<br />2018.04 ~ 2018.11 2018 이브와 ICT 멘토링 진행 (과학기술정보통신부 장관상)
+<br /><br />해커톤
 <br />2019.11 2019 공개 SW 미니 해커톤 본선
 <br />2019.09 2019 루니버스와 함께하는 UDC 해커톤 본선
 <br />2019.07 2019 쿼럼(Quorum) 서울 해커톤 본선
