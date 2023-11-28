@@ -38,7 +38,7 @@ key: page-about
 
 ## Tech
 
-dApp 개발 / Blockchain
+dApp / Blockchain
 <br /><br />Javascript, Typescript
 <br />Vue/Nuxt와 React/Next를 사용하고 있습니다.
 <br />C/C++, Solidity
