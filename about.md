@@ -30,6 +30,7 @@ key: page-about
 <br />I'm growing up as a front-end developer connecting the blockchain to the world in CPLABS.
 <br /><br />진행 중인 프로젝트
 <br />[WEMIX.Fi](https://wemix.fi) with WEMIX
+<br />[WEB2X](https://trial.web2x.io)
 
 ## Github Log
 
@@ -40,7 +41,7 @@ key: page-about
 
 dApp / Blockchain
 <br /><br />Javascript, Typescript
-<br />React/Next를 사용하고 있습니다. (Vue/Nuxt)
+<br />React/Next를 사용하고 있습니다.
 <br />C/C++, Solidity
 
 ## Interest
