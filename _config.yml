@@ -126,7 +126,7 @@ comments:
   utterances:
     theme      : # "github-light" (default), "github-dark"
     issue_term : # "pathname" (default)
-    repo       : infiduk/infiduk.github.io
+    # repo       : infiduk/infiduk.github.io
 
   ## Disqus
   disqus:
