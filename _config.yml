@@ -120,7 +120,12 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: utterances # false (default), "disqus", "gitalk", "valine", "custom"
+
+  ## utterances
+  utterances:
+    theme      : # "github-light" (default), "github-dark"
+    issue_term : # "pathname" (default)
 
   ## Disqus
   disqus:
