@@ -120,7 +120,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: utterances # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## utterances
   utterances:
