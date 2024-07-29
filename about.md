@@ -26,16 +26,10 @@ titles:
 key: page-about
 ---
 
-<b>CPLABS에서 블록체인과 세상을 연결하는 프론트 개발자로 성장하고 있습니다.</b>
-<br />I'm growing up as a front-end developer connecting the blockchain to the world in CPLABS.
+<b>CPLABS에서 블록체인과 세상을 연결하는 프론트 개발자로 활동 중입니다.</b>
+<br />Working as a front developer connecting blockchain and the world at CPLABS.
 <br /><br />진행 중인 프로젝트
-<br />[WEMIX.Fi](https://wemix.fi) with WEMIX
-<br />[WEB2X](https://trial.web2x.io)
-
-## Github Log
-
-잔디정원사 인피덕
-<br /><br />![chart](https://ghchart.rshah.org/infiduk)
+<br />[WEB2X](https://web2x.io)
 
 ## Tech
 
@@ -51,7 +45,9 @@ dApp / Blockchain
 
 ## Activity
 
-공모전
+2020.08 ~ CPLABS
+<br />2022.06 ~ 2024.05 WEMIX 3.0 프로젝트 프론트 개발 (WEMIX.Fi / 40 WONDERS)
+<br /><br />공모전
 <br />2023.06 2023년 코인플러그 제1회 사내 블록체인 활용 혁신 아이디어 공모전 (장려상, 아차상, 연구소장상)
 <br />2024.05 2024년 씨피랩스 AI 혁신 챌린지 공모전 최종 선정
 <br /><br />활동
@@ -63,3 +59,8 @@ dApp / Blockchain
 <br />2019.11 2019 공개 SW 미니 해커톤 본선
 <br />2019.09 2019 루니버스와 함께하는 UDC 해커톤 본선
 <br />2019.07 2019 쿼럼(Quorum) 서울 해커톤 본선
+
+## Github Log
+
+잔디정원사 인피덕
+<br /><br />![chart](https://ghchart.rshah.org/infiduk)
