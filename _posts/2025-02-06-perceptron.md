@@ -5,8 +5,6 @@ tags: study dl perceptron
 comments: true
 ---
 
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://infiduk.github.io/2025/02/06/perceptron.html&count_bg=%23EDD513&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%E2%9C%A8+page+view+%E2%9C%A8&edge_flat=false" /></a>
-
 What's a perceptron?
 
 [밑바닥부터 시작하는 딥러닝 1권](https://github.com/WegraLee/deep-learning-from-scratch?tab=readme-ov-file)의 스터디를 진행한 후 정리한 글입니다.

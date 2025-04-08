@@ -5,8 +5,6 @@ tags: study react javascript nomadcoders
 comments: true
 ---
 
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://infiduk.github.io/2022/07/22/react-for-beginners.html&count_bg=%23EDD513&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%E2%9C%A8+page+view+%E2%9C%A8&edge_flat=false" /></a>
-
 ReactJS로 영화 웹 서비스 만들기 (CP 1차시)
 
 ## CP 프론트 스터디 1차시 내용 정리
@@ -291,7 +289,7 @@ const Title = /*#__PURE__*/ React.createElement(
   "h3",
   {
     id: "title",
-    onMouseEnter: () => console.log("mouse enter"),
+    onMouseEnter: () => console.log("mouse enter")
   },
   "Hello I'm a title"
 );
@@ -299,9 +297,9 @@ const Button = /*#__PURE__*/ React.createElement(
   "button",
   {
     style: {
-      backgroundColor: "tomato",
+      backgroundColor: "tomato"
     },
-    onClick: () => console.log("I'm clicked"),
+    onClick: () => console.log("I'm clicked")
   },
   "Click me"
 );

@@ -5,8 +5,6 @@ tags: study react javascript typescript
 comments: true
 ---
 
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://infiduk.github.io/2022/09/08/react-onclick.html&count_bg=%23EDD513&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%E2%9C%A8+page+view+%E2%9C%A8&edge_flat=false" /></a>
-
 리액트 onClick 사용 시 주의 사항
 
 ```jsx

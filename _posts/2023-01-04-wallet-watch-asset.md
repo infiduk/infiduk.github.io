@@ -5,8 +5,6 @@ tags: study blockchain metamask
 comments: true
 ---
 
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://infiduk.github.io/2023/01/04/wallet-watch-asset.html&count_bg=%23EDD513&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%E2%9C%A8+page+view+%E2%9C%A8&edge_flat=false" /></a>
-
 EIP-747: wallet_watchAsset
 
 ## TL;DR
@@ -117,7 +115,7 @@ interface WatchAssetParameters {
     address: string, // 토큰 컨트랙트 주소
     symbol?: string, // 심볼 이름
     decimals?: number, // 소수점 (아마도 대부분 18일텐데, 왜냐면 이더리움이 18 임)
-    image?: string, // 토큰 이미지 (png, jpg, svg 등의 이미지 링크 혹은 base64 형태)
+    image?: string // 토큰 이미지 (png, jpg, svg 등의 이미지 링크 혹은 base64 형태)
   };
 }
 ```

@@ -5,8 +5,6 @@ tags: study blockchain
 comments: true
 ---
 
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://infiduk.github.io/2023/01/02/oracle-problem.html&count_bg=%23EDD513&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%E2%9C%A8+page+view+%E2%9C%A8&edge_flat=false" /></a>
-
 블록체인 오라클 문제 (Blockchain Oracles)
 
 ## 서론
