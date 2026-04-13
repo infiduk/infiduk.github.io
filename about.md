@@ -26,27 +26,27 @@ titles:
 key: page-about
 ---
 
-<b>CPLABS에서 블록체인과 세상을 연결하는 프론트 개발자로 일하고 있습니다.</b>
-<br />Working as a front developer connecting blockchain and the world at CPLABS.
+<b>세상의 필요를, 나의 생각을 화면으로 표현합니다.</b>
+<br />I express the needs of the world, my thoughts on the screen.
 <br /><br />잔디정원사 인피덕
-<br /><br />진행 중인 프로젝트
-<br />[WEB2X](https://web2x.io)
 
 ## Tech
 
-dApp / Blockchain
+with AI service
+<br />dApp / Blockchain
 <br /><br />Javascript, Typescript
 <br />React/Next를 사용하고 있습니다.
-<br />C/C++, Solidity
 
 ## Interest
 
-웹 성능 최적화
-<br /><s>그리고 메이플스토리</s>
+바이브 코딩
+<br />최소한의 필요로 최대를 끌어내자
+<br />웹 성능 최적화
 
 ## Activity
 
-2020.08 ~ CPLABS (코인플러그)
+2020.08 ~ 2025.12 CPLABS (코인플러그)
+<br />2025 번호판 인식 model finetuning 프로젝트 진행 (바이브 코딩)
 <br />2022.06 ~ 2024.05 WEMIX 3.0 프로젝트 프론트 개발 (WEMIX.Fi / 40 WONDERS)
 <br /><br />공모전
 <br />2024.05 2024년 씨피랩스 AI 혁신 챌린지 공모전 최종 선정
