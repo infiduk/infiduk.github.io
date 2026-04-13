@@ -46,7 +46,7 @@ with AI service
 ## Activity
 
 2020.08 ~ 2025.12 CPLABS (코인플러그)
-<br />2025 번호판 인식 model finetuning 프로젝트 진행 (바이브 코딩)
+<br />2025.01 ~ 2025.12 번호판 인식 모델 파인튜닝 진행
 <br />2022.06 ~ 2024.05 WEMIX 3.0 프로젝트 프론트 개발 (WEMIX.Fi / 40 WONDERS)
 <br /><br />공모전
 <br />2024.05 2024년 씨피랩스 AI 혁신 챌린지 공모전 최종 선정
